@@ -9,6 +9,7 @@ import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 const categories = ["Singer", "Dancer", "DJ", "Speaker"] as const;
 const languages = ["English", "Hindi", "Spanish", "French"] as const;
@@ -214,7 +215,7 @@ export default function ArtistOnboardingForm() {
         />
         {errors.image && <p className="text-sm text-red-500 mt-1">{errors.image.message}</p>}
         {preview && (
-          <img
+          <Image
             src={preview}
             alt="Preview"
             className="mt-3 w-32 h-32 object-cover rounded-full border-4 border-pink-400 shadow-lg transition-all"

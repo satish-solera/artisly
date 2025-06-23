@@ -3,7 +3,7 @@ import ArtistInfo from "@/components/sections/artistInfoSection";
 
 import Hero from "@/components/sections/heroSection";
 import { ArtistCard } from "@/components/ui/cards/artistCard";
-import Link from "next/link";
+
 
 import { useEffect, useState } from "react";
 type Artist = {
