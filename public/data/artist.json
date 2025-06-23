@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Ariana Vox",
+    "category": "Singer",
+    "price": "$500 - $1000",
+    "location": "New York",
+    "image": "/artists/vox.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Leo Moves",
+    "category": "Dancer",
+    "price": "$300 - $800",
+    "location": "Los Angeles",
+    "image": "/artists/leo.jpg"
+  },
+  {
+    "id": 3,
+    "name": "DJ Pulse",
+    "category": "DJ",
+    "price": "$700 - $1200",
+    "location": "Chicago",
+    "image": "/artists/dj-pulse.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Speakwell",
+    "category": "Speaker",
+    "price": "$600 - $1100",
+    "location": "San Francisco",
+    "image": "/artists/public-speaker.jpg"
+  }
+]
